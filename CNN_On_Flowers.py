@@ -4,7 +4,7 @@ from keras.layers.convolutional import MaxPooling2D
 from keras.layers import Activation, Dropout, BatchNormalization
 from keras.layers.core import Dense
 from keras.layers.core import Flatten
-from keras.utils import to_categorical
+from keras.utils.np_utils import to_categorical
 from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 
